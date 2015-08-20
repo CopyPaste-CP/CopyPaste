@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			printf("%s\n",args[7]);	
 			p=strtok(NULL," ");
 		}
-		while(p!=NULL && a!=8);
+		while(p!=NULL);
 	}
 pclose(fp);
 }
